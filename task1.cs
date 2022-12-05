@@ -8,14 +8,14 @@ Console.WriteLine("ВВедите второе число ");
 string num2 = Console.ReadLine()!;
 int num2int = int.Parse(num1);
 
-if(num1int > num2int)
-{   
+if (num1int > num2int)
+{
     Console.WriteLine(num1int + " Больше " + num2int);
 }
 
-else if (num2int >num1int)
+else if (num2int > num1int)
 {
-    Console.WriteLine(num2int + " Больше "num1int);
+    Console.WriteLine(num2int + " Больше num1int");
 }
 
 else
